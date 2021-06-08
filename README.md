@@ -13,7 +13,7 @@ Makes use of variadic functions too.
 
 https://github.com/nhpip/curry-elixir
 
-###Variadic Functions in Elixir
+### Variadic Functions in Elixir
 
 Functions that can take an arbritary number of arguments.
 
