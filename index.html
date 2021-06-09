@@ -17,19 +17,37 @@
   <p style="color:#88d4d5;margin:40px;">Hi, I’m @nhpip
   <br><br>Current interests are functional languages (Erlang / Elixir) and learning Haskell</p>
 
-  <h3 style="color:#03b0fb;margin:40px;">Main github page</h3>
-  <a style="color:#88d4d5;margin:40px;" href="https://github.com/nhpip"><b>https://github.com/nhpip</a> 
-  <p><br></p>
-
   <h3 style="color:#03b0fb;margin:40px;">Currying and Partial Application in Elixir</h3>
-  <p style="color:#88d4d5;margin:40px;">Currying and partial application with variadic functions</p>
+  <p style="color:#88d4d5;margin:40px;">
+     Currying is the process by which a function with an arity of N is turned into N functions <br>
+     each with an arity of 1. For example:</p>
+  <p>
+  <code style="margin:60px;background-color:#88d4d5; padding: 10px; font-size: 105%;"<br>x = f(a,b,c)</code>
+  <br><br><span style="color:#88d4d5;margin:40px;">Becomes:</span><br><br>
+  <code style="margin:60px;background-color:#88d4d5; padding: 10px; font-size: 105%;"<br>h = g(a); i = h(b); x = i(c)</code></p>
+
+  <p style="color:#88d4d5;margin:40px;">
+  Partial application involves taking a function of N arguments; initially calling it with X<br> arguments and then again 
+  with the remaining arguments. For example:</p>
+  <p>
+  <code style="margin:60px;background-color:#88d4d5; padding: 10px; font-size: 105%;"<br>x = f(a,b,c,d,e)</code>
+  <br><br><span style="color:#88d4d5;margin:40px;">Becomes:</span><br><br>
+  <code style="margin:60px;background-color:#88d4d5; padding: 10px; font-size: 105%;"<br>h = g(a,b,c); x = h(d,e)</code></p>
+  
+  <p><br>
   <a style="color:#88d4d5;margin:40px;" href="https://github.com/nhpip/curry-elixir"><b>https://github.com/nhpip/curry-elixir</a>
-  <p><br></p>
+  <div style="margin:40px; width: 587px; height: 400px; overflow-y: scroll; scrollbar-color: #03b0fb #88d4d5;">
+    <img src="./images/curry.jpg" alt="Variadic">
+  </div>
+  <br>
+  </p>
 
   <h3 style="color:#03b0fb;margin:40px;">Variadic Functions in Elixir</h3>
   <p style="color:#88d4d5;margin:40px;">Functions that can take an arbritary number of arguments.</p>
   <a style="color:#88d4d5;margin:40px;" href="https://github.com/nhpip/variadic-elixir"><b>https://github.com/nhpip/variadic-elixir</a>
-  <p><br></p>
+  <div style="margin:40px; width: 587px; height: 400px; overflow-y: scroll; scrollbar-color: #03b0fb #88d4d5;">
+    <img src="./images/variadic.jpg" alt="Variadic">
+  </div>
 
 </body>
 
